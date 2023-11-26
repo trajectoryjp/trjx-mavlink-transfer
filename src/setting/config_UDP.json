@@ -1,0 +1,15 @@
+{
+    "AircraftID":"87",
+    "TRJXgRPC":{
+        "Address":"127.0.0.1",
+        "Port":50063
+    },
+    "AutopilotUDP":{
+        "MyPort":14551,
+        "Destination":{
+            "Address":"192.168.1.24",
+            "Port":14550
+        }
+    },
+    "LogLevel":3
+}

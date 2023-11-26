@@ -1,0 +1,14 @@
+{
+    "AircraftID":"21",
+    "TRJXgRPC":{
+        "Address":"alb-dev-1250413554.ap-northeast-1.elb.amazonaws.com",
+        "Port":443,
+        "UseTLS":true,
+        "ServerName":"trjxdev.trajectory.jp"
+    },
+    "AutopilotTCPClient":{
+        "Address":"127.0.0.1",
+        "Port":5760
+    },
+    "LogLevel":3
+}
