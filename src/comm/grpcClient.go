@@ -5,9 +5,10 @@ import (
 	"log"
 	"time"
 
-	fi "gomav/code/trjxtransfer/fileio"
-	pb "gomav/code/proto/pb"
-	tj "gomav/code/trjxtransfer/trjxcomm"
+	pb "github.com/trajectoryjp/trjx-vehicle-api/proto_go/trjxmavlink"
+
+	fi "github.com/trajectoryjp/trjx-mavlink-transfer/fileio"
+	tj "github.com/trajectoryjp/trjx-mavlink-transfer/trjxcomm"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

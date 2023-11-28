@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/trajectoryjp/trjx-mavlink-transfer/comm"
+
 	fi "github.com/trajectoryjp/trjx-mavlink-transfer/fileio"
 )
 

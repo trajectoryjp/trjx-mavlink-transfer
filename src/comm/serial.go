@@ -7,8 +7,9 @@ import (
 
 	"github.com/tarm/serial"
 
-	fi "gomav/code/trjxtransfer/fileio"
 	bf "gomav/code/util/lib"
+
+	fi "github.com/trajectoryjp/trjx-mavlink-transfer/fileio"
 )
 
 // https://kobatako.hatenablog.com/entry/2017/11/24/210943

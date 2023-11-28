@@ -7,9 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aler9/gomavlib/pkg/dialect"
-	"github.com/aler9/gomavlib/pkg/dialects/all"
-	"github.com/aler9/gomavlib/pkg/parser"
+	"github.com/bluenviron/gomavlib/v2/pkg/dialect"
+	"github.com/bluenviron/gomavlib/v2/pkg/dialects/all"
+
+	//"github.com/bluenviron/gomavlib/v2/pkg/parser"
+	"github.com/bluenviron/gomavlib/v2/pkg/frame"
 )
 
 var msgMap = map[uint32]bool{51: true, 47: true, 44: true, 40: true, 77: true, 39: true, 73: true}
@@ -36,7 +38,8 @@ func mavDebug(msg []byte, dir int) {
 	once.Do(mavDebugInit)
 
 	inBuf := bytes.NewBuffer(msg)
-	reader, err := parser.NewReader(parser.ReaderConf{
+	//reader, err := parser.NewReader(parser.ReaderConf{
+	reader, err := frame.NewReader(frame.ReaderConf{
 		Reader:    inBuf,
 		DialectDE: dialectDE,
 	})

@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	pb "gomav/code/proto/pb"
-	fi "gomav/code/trjxtransfer/fileio"
+	pb "github.com/trajectoryjp/trjx-vehicle-api/proto_go/trjxmavlink"
+
 	fi "github.com/trajectoryjp/trjx-mavlink-transfer/fileio"
 )
 
