@@ -23,12 +23,14 @@ var msgMap = map[uint32]bool{51: true, 47: true, 44: true, 40: true, 77: true, 3
 
 //var msgMap = map[uint32]bool{}
 
-var dialectDE *dialect.DecEncoder
+// var dialectDE *dialect.DecEncoder
+var dialectRW *dialect.ReadWriter
 var once sync.Once
 
 func mavDebugInit() {
 	var err error
-	dialectDE, err = dialect.NewDecEncoder(all.Dialect) // この処理は非常に重い
+	//dialectDE, err = dialect.NewDecEncoder(all.Dialect) // この処理は非常に重い
+	dialectRW, err = dialect.NewReadWriter(all.Dialect)
 	if err != nil {
 		log.Fatal("mavDebug NewDecEncoder e=%v", err)
 	}
@@ -40,8 +42,9 @@ func mavDebug(msg []byte, dir int) {
 	inBuf := bytes.NewBuffer(msg)
 	//reader, err := parser.NewReader(parser.ReaderConf{
 	reader, err := frame.NewReader(frame.ReaderConf{
-		Reader:    inBuf,
-		DialectDE: dialectDE,
+		Reader: inBuf,
+		//DialectDE: dialectDE,
+		DialectRW: dialectRW,
 	})
 	if err != nil {
 		panic(err)

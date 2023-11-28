@@ -16,8 +16,8 @@ github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcU
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07 h1:UyzmZLoiDWMRywV4DUYb9Fbt8uiOSooupjTq10vpvnU=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
-github.com/trajectoryjp/trjx-vehicle-api v0.0.0-20231125144241-422b02698963 h1:+CsyiI54IK3Xox4+LQypC9ndYGz9dXStjD6GwIK+k3Y=
-github.com/trajectoryjp/trjx-vehicle-api v0.0.0-20231125144241-422b02698963/go.mod h1:3hVOYvZ7pD5SjgYgv7HCI9B3QafXOgXurC2TMENmchg=
+github.com/trajectoryjp/trjx-vehicle-api/proto_go v0.0.0-20231128114944-a89b1ab97985 h1:ylbydyiBHxTpqm71u2fhYk4M0OCr0m1EKvhZi6BAT8o=
+github.com/trajectoryjp/trjx-vehicle-api/proto_go v0.0.0-20231128114944-a89b1ab97985/go.mod h1:FZuvpASdshLVWnBOlJCxXQL4j0DflATBVV1huUxikCk=
 golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
 golang.org/x/net v0.17.0/go.mod h1:NxSsAGuq816PNPmqtQdLE42eU2Fs7NoRIZrHJAlaCOE=
 golang.org/x/sys v0.13.0 h1:Af8nKPmuFypiUBjVoU9V20FiaFXOcuZI21p0ycVYYGE=

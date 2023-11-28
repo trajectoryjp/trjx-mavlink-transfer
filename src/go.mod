@@ -5,7 +5,7 @@ go 1.21.3
 require (
 	github.com/bluenviron/gomavlib/v2 v2.1.2
 	github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07
-	github.com/trajectoryjp/trjx-vehicle-api v0.0.0-20231125144241-422b02698963
+	github.com/trajectoryjp/trjx-vehicle-api/proto_go v0.0.0-20231128114944-a89b1ab97985
 	google.golang.org/grpc v1.59.0
 )
 

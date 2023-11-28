@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("trjxTransfer v1.2.0\n")
+	fmt.Printf("trjxTransfer v2.0.0\n")
 	conf := fi.ReadConfig()
 
 	aircraftID, autopilotSelector, address := parameterSelector(os.Args[1:], conf)
