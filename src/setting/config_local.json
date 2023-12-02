@@ -1,0 +1,12 @@
+{
+    "AircraftID":"168",
+    "TRJXgRPC":{
+        "Address":"127.0.0.1",
+        "Port":50063
+    },
+    "AutopilotTCPClient":{
+        "Address":"127.0.0.1",
+        "Port":5760
+    },
+    "LogLevel":3
+}
