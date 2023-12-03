@@ -7,6 +7,18 @@
 GOOS=linux GOARCH=arm go build -o trjx_transfer_raspberry
 ```
 
+- Raspberry pi (1,zero)
+```
+GOOS=linux GOARCH=arm GOARM=6 go build -o trjx_transfer_raspberry_zero
+```
+https://qiita.com/m0a/items/d933982293dcadd4998c
+
+- Raspberry pi (2)
+```
+GOOS=linux GOARCH=arm GOARM=7 go build -o trjx_transfer_raspberry_2
+```
+https://qiita.com/m0a/items/d933982293dcadd4998c
+
 - centos
 
 ```
