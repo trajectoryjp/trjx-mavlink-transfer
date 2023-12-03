@@ -1,0 +1,13 @@
+[Unit]
+Description=TRJX MAVLINK on gRPC Service
+
+[Service]
+WorkingDirectory = /home/pi/Trjx/trjxTransfer
+Type=simple
+ExecStart= /home/pi/Trjx/trjxTransfer/trjx_transfer_raspberry
+StandardOutput = file:/tmp/trjx-transfer.log
+StandartError = file:/tmp/trjx-transfer.error
+Restart=always    
+
+[Install]
+WantedBy=multi-user.target

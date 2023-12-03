@@ -1,13 +1,15 @@
 {
     "AircraftID":"87",
     "TRJXgRPC":{
-        "Address":"127.0.0.1",
-        "Port":50063
+        "Address":"trjx.trajectory.jp",
+        "Port":443,
+        "UseTLS":true,
+        "ServerName":"trjx.trajectory.jp"
     },
     "AutopilotUDP":{
         "MyPort":14551,
         "Destination":{
-            "Address":"192.168.1.24",
+            "Address":"127.0.0.1",
             "Port":14550
         }
     },
