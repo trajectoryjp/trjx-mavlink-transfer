@@ -1,5 +1,14 @@
 # クロスビルド
 
+## ターゲット
+
+GOがセットアップされている環境で下記のコマンドを実行するとサポートされているターゲットが表示される
+
+```
+go tool dist list
+```
+
+## 具体例
 
 - Raspberry pi
 
@@ -35,6 +44,12 @@ GOOS=darwin GOARCH=amd64 go build -o trjx_transfer_intel_mac
 
 ```
 GOOS=darwin GOARCH=arm64 go build -o trjx_transfer_m_mac
+```
+
+- Ubuntu AMD
+
+```
+GOOS=linux GOARCH=amd64 go build -o trjx_transfer_linux_amd
 ```
 
 
